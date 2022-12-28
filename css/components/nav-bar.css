@@ -15,4 +15,22 @@
 
 .nav__link {
     color: #2e363e;
+    position: relative;
+}
+
+.nav__notification-number {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__notification-dot {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
 }
