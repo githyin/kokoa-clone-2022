@@ -1,6 +1,4 @@
 #friends-display-link {
-    margin-top: 108px;
-    margin-bottom: 10px;
     padding: 15px 0px;
     background-color: #fafafa;
     font-size: 16px;
@@ -22,18 +20,12 @@
     margin-left: 5px;
 }
 
-.friends-screen {
-    padding: 0px var(--horizontal-space);
-}
 .friends-screen__channel {
-    margin-top: 25px;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: var(--main-border);
     padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-    margin-bottom: 25px;
-
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);

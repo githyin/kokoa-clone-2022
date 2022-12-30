@@ -1,0 +1,14 @@
+.initial-setup__friends {
+    margin-top: 108px;
+    padding: 0px var(--horizontal-space);
+}
+
+.initial-setup__chat {
+    margin-top: 108px;
+    padding: 0px var(--horizontal-space);
+}
+
+.initial-setup__find {
+    margin-top: 108px;
+    padding: 0px var(--horizontal-space);
+}

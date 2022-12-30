@@ -16,6 +16,21 @@
     font-weight: 600;
 }
 
+.screen-header__icon {
+    position: relative;
+}
+
 .screen-header__icon span {
     margin-left: 25px;
+}
+
+.screen-header__icon__dot {
+    position: absolute;
+    left: 75px;
+    bottom: 25px;
+    
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
 }
