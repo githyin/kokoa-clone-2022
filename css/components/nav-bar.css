@@ -3,9 +3,9 @@
     bottom: 0;
     width: 100%;
     background-color: #f9f9fa;
-    padding: 20px 40px;
+    padding: 28px 80px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.14);
 }
 
 .nav__list {
@@ -14,20 +14,22 @@
 }
 
 .nav__link {
+    font-size: 20px;
+
     color: #2e363e;
     position: relative;
 }
 
 .nav__notification-number {
     position: absolute;
-    left: 15px;
-    bottom: 15px;
+    left: 26px;
+    bottom: 16px;
 }
 
 .nav__notification-dot {
     position: absolute;
-    left: 30px;
-    bottom: 25px;
+    left: 40px;
+    bottom: 35px;
     
     background-color: tomato;
     width: 8px;

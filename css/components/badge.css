@@ -1,8 +1,8 @@
 .badge {
     background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    width: 33px;
+    height: 33px;
+    border-radius: 16.5px;
     
     display: flex;
     justify-content: center;
