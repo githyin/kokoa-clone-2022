@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.user-component__column:last-child i {
+    font-size: 44px;
+}
+
 .user-component__avatar {
     width: 90px;
     height: 90px;
@@ -18,7 +22,7 @@
 .user-component__avatar--xl {
     width: 112px;
     height: 112px;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 .user-component__avatar--sm {
