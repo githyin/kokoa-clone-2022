@@ -36,3 +36,16 @@
     height: 8px;
     border-radius: 4px;
 }
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icon .fa-cog:hover {
+    animation: rotateCog 2s linear infinite;
+}
